@@ -1,0 +1,7 @@
+{
+  "watch": ["src"],
+  "ignore": ["src/**/*.{test,spec}.ts"],
+  "ext": "ts,mjs,js,json,graphql",
+  "exec": "npx etsc && node dist",
+  "legacyWatch": true
+}
