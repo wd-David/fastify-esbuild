@@ -37,6 +37,11 @@
       "type": "test",
       "hidden": false,
       "section": "✅ Testing"
+    },
+    {
+      "type": "build",
+      "hidden": false,
+      "section": "🔨 Build System"
     }
   ]
 }
