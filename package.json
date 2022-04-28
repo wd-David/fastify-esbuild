@@ -4,7 +4,7 @@
   "scripts": {
     "prepare": "husky install",
     "dev": "nodemon",
-    "build": "rm -rf build && esbuild `find src \\( -name '*.ts' \\)` --platform=node --outdir=build --resolve-extensions=.js --bundle --minify",
+    "build": "rm -rf build && esbuild `find src \\( -name '*.ts' \\)` --platform=node --outdir=build --bundle --minify",
     "format": "prettier --write 'src/**/*.{js,ts,json,md}'",
     "lint": "prettier --check 'src/**/*.{js,ts,json,md}' && eslint --ignore-path .gitignore .",
     "cz": "cz",
