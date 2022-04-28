@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/davipon/fastify-esbuild/compare/v0.0.5...v0.0.6) (2022-04-28)
+
+
+### 🚚 Chores
+
+* **esbuild:** remove resolve-extensions in build script ([8f12b2b](https://github.com/davipon/fastify-esbuild/commit/8f12b2b4d15b8b7a8d5c571d4a2c1ee2d364333d))
+
+
+### 🔨 Build System
+
+* **esbuild:** add windows compatible build script ([dd3fe39](https://github.com/davipon/fastify-esbuild/commit/dd3fe39f6ce337e3771cfb28214df45bd808b946))
+
 ### [0.0.5](https://github.com/davipon/fastify-esbuild/compare/v0.0.4...v0.0.5) (2022-04-25)
 
 
