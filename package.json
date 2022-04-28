@@ -5,6 +5,7 @@
     "prepare": "husky install",
     "dev": "nodemon",
     "build": "rm -rf build && esbuild `find src \\( -name '*.ts' \\)` --platform=node --outdir=build --bundle --minify",
+    "build:windows": "rm -rf build && node ./build.js",
     "format": "prettier --write 'src/**/*.{js,ts,json,md}'",
     "lint": "prettier --check 'src/**/*.{js,ts,json,md}' && eslint --ignore-path .gitignore .",
     "cz": "cz",
