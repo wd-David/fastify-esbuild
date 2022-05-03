@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/davipon/fastify-esbuild/compare/v0.0.7...v0.0.8) (2022-05-03)
+
+
+### 🔨 Build System
+
+* **esbuild:** remove minify flag ([9b3dc99](https://github.com/davipon/fastify-esbuild/commit/9b3dc991feead8ba37f2dd1ac1f5aa8bc9d724a8))
+
 ### [0.0.7](https://github.com/davipon/fastify-esbuild/compare/v0.0.6...v0.0.7) (2022-05-01)
 
 
