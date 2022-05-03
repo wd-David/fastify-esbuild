@@ -1,6 +1,6 @@
 import { join } from 'path'
 import Fastify from 'fastify'
-import autoLoad from 'fastify-autoload'
+import autoLoad from '@fastify/autoload'
 
 const fastify = Fastify({
   logger: true

@@ -24,7 +24,6 @@ esbuild.build({
   entryPoints,
   logLevel: 'info',
   outdir: 'build',
-  minify: true,
   bundle: true,
   platform: 'node'
 })

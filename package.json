@@ -4,7 +4,7 @@
   "scripts": {
     "prepare": "husky install",
     "dev": "nodemon",
-    "build": "rm -rf build && esbuild `find src \\( -name '*.ts' \\)` --platform=node --outdir=build --bundle --minify",
+    "build": "rm -rf build && esbuild `find src \\( -name '*.ts' \\)` --platform=node --outdir=build --bundle",
     "build:windows": "rm -rf build && node ./build.js",
     "format": "prettier --write 'src/**/*.{js,ts,json,md}'",
     "lint": "prettier --check 'src/**/*.{js,ts,json,md}' && eslint --ignore-path .gitignore .",
@@ -35,9 +35,9 @@
     "typescript": "^4.6.4"
   },
   "dependencies": {
+    "@fastify/autoload": "^4.0.0",
+    "@fastify/sensible": "^4.0.0",
     "fastify": "^3.29.0",
-    "fastify-autoload": "^3.13.0",
-    "fastify-plugin": "^3.0.1",
-    "fastify-sensible": "^3.2.0"
+    "fastify-plugin": "^3.0.1"
   }
 }
