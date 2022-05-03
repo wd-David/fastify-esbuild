@@ -38,6 +38,7 @@
     "@fastify/autoload": "^4.0.0",
     "@fastify/sensible": "^4.0.0",
     "fastify": "^3.29.0",
-    "fastify-plugin": "^3.0.1"
+    "fastify-plugin": "^3.0.1",
+    "pino-pretty": "^7.6.1"
   }
 }

@@ -3,7 +3,13 @@ import Fastify from 'fastify'
 import autoLoad from '@fastify/autoload'
 
 const fastify = Fastify({
-  logger: true
+  logger: {
+    prettyPrint: {
+      colorize: true,
+      translateTime: 'HH:MM:ss.l',
+      ignore: 'pid,hostname'
+    }
+  }
 })
 
 fastify.register(autoLoad, {
