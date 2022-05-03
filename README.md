@@ -9,7 +9,7 @@ Opinionated boilerplate to build a Fastify app with a better DX.
 ## Features
 
 - Use `nodemon` & `esbuild-node-tsc` during devlopment to reduce feedback loop.
-- Use `esbuild` to bundle & minify production code.
+- Use `esbuild` to bundle production code.
 - Use Conventional Commits & SemVer standards, e.g. `commitlint`, `commitizen`, `standard-version`.
 - Use `eslint`, `prettier`, `lint-staged`.
 - Use `husky` git hooks helper to run formatter & linter.
@@ -43,8 +43,8 @@ pnpm release
 
 ## TODO
 
+- [ ] Add `docker` or `docker-compose` for deployment
 - [ ] Add `vitest` & `msw`
 - [ ] Add `dotnev` for different stages
 - [ ] Add `mongodb` examples
-- [ ] Add `docker` or `docker-compose` for deployment
 - [ ] Add `envoy` as a sidecar proxy
