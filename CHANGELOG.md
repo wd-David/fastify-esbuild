@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/davipon/fastify-esbuild/compare/v0.0.9...v0.0.10) (2022-05-03)
+
+
+### 🚚 Chores
+
+* **logging:** add pino-pretty to prettify logs ([c1c7593](https://github.com/davipon/fastify-esbuild/commit/c1c7593ee7c6fc0cbdd7e2a34bc1cc80262e6929))
+
 ### [0.0.9](https://github.com/davipon/fastify-esbuild/compare/v0.0.8...v0.0.9) (2022-05-03)
 
 
