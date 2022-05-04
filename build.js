@@ -1,3 +1,4 @@
+const env = process.argv[2]
 /* eslint-disable @typescript-eslint/no-var-requires */
 /* eslint-disable no-undef */
 const fs = require('fs')
@@ -23,7 +24,8 @@ const entryPoints = fileArray.filter((file) => file.endsWith('.ts'))
 esbuild.build({
   entryPoints,
   logLevel: 'info',
-  outdir: 'build',
-  bundle: true,
-  platform: 'node'
+  outdir: env === 'dev' ? 'dist' : 'build',
+  bundle: env === 'dev' ? false : true,
+  platform: 'node',
+  format: 'cjs'
 })
