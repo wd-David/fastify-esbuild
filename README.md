@@ -1,14 +1,15 @@
-# fastify-esbuild
+#fastify-esbuild
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 ---
 
-Opinionated boilerplate to build a Fastify app with a better DX.
+Opinionated boilerplate to build a Fastify app with better DX.
 
 ## Features
 
-- Use `nodemon` & `esbuild-node-tsc` during devlopment to reduce feedback loop.
+- Use `@fastify/autoload` for filesystem-based routes & plugins.
+- Use `nodemon` & `esbuild` to reduce feedback loop during devlopment.
 - Use `esbuild` to bundle production code.
 - Use Conventional Commits & SemVer standards, e.g. `commitlint`, `commitizen`, `standard-version`.
 - Use `eslint`, `prettier`, `lint-staged`.
@@ -32,7 +33,7 @@ pnpm dev
 pnpm build
 
 # Run production code
-node build
+node ./build/index.js
 
 # New commit with interactive CLI
 pnpm cz
