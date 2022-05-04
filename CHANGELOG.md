@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/davipon/fastify-esbuild/compare/v0.0.10...v0.0.11) (2022-05-04)
+
+
+### 📝 Documentation
+
+* update README.md ([4495ba7](https://github.com/davipon/fastify-esbuild/commit/4495ba79c8489bb1e49d90750a482c8a974c1cc6))
+
+
+### 🔨 Build System
+
+* remove esbuild-node-tsc ([0b7af6d](https://github.com/davipon/fastify-esbuild/commit/0b7af6d80bc0866b26c2bb86b4cea6b6d1057a02))
+* rename build.js to esbuild.js ([2510d7b](https://github.com/davipon/fastify-esbuild/commit/2510d7b5ef3bbe90a72460adf685d4ca92f5d961))
+
 ### [0.0.10](https://github.com/davipon/fastify-esbuild/compare/v0.0.9...v0.0.10) (2022-05-03)
 
 
