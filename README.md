@@ -33,7 +33,7 @@ pnpm dev
 pnpm build
 
 # Run production code
-node ./build/index.js
+node build
 
 # New commit with interactive CLI
 pnpm cz
