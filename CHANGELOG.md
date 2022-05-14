@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.12](https://github.com/davipon/fastify-esbuild/compare/v0.0.11...v0.0.12) (2022-05-14)
+
+
+### 🚚 Chores
+
+* update tsconfig.json ([36c12b3](https://github.com/davipon/fastify-esbuild/commit/36c12b3520df07f893cc63b19bd4f26855af61df))
+
+
+### ✨ Features
+
+* **posts:** add posts route, add swagger ([6d62ee0](https://github.com/davipon/fastify-esbuild/commit/6d62ee0bc892e3a4d6f2f0cf8f89e173e8706ba9))
+
 ### [0.0.11](https://github.com/davipon/fastify-esbuild/compare/v0.0.10...v0.0.11) (2022-05-04)
 
 
