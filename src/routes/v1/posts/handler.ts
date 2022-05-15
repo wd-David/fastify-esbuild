@@ -12,7 +12,7 @@ export const getAllPostsHandler: RouteHandler<{
   Querystring: PostsQuery
   Reply: GetPostsResponse
 }> = async function (req, reply) {
-  if (req?.query?.deleted !== undefined) {
+  if (req.query?.deleted !== undefined) {
     const { deleted } = req.query
     const filteredPosts = posts.filter((post) => post.deleted === deleted)
     reply.send({ posts: filteredPosts })
@@ -44,6 +44,7 @@ export const postPostsHandler: RouteHandler<{
 export const putPostsHandler: RouteHandler<{
   Params: PostsParams
   Body: PostsBody
+  Reply: Record<string, never> | NotFoundResponse
 }> = async function (req, reply) {
   const { postid } = req.params
   const post = posts.find((p) => p.id == postid)
@@ -53,12 +54,13 @@ export const putPostsHandler: RouteHandler<{
     post.tags = req.body.tags
     reply.code(204).send({})
   } else {
-    reply.code(404).send({})
+    reply.code(404).send({ error: 'Post not found' })
   }
 }
 
 export const deletePostsHandler: RouteHandler<{
   Params: PostsParams
+  Reply: Record<string, never> | NotFoundResponse
 }> = async function (req, reply) {
   const { postid } = req.params
   const post = posts.find((p) => p.id == postid)
@@ -66,6 +68,6 @@ export const deletePostsHandler: RouteHandler<{
     post.deleted = true
     reply.code(204).send({})
   } else {
-    reply.code(404).send({})
+    reply.code(404).send({ error: 'Post not found' })
   }
 }
