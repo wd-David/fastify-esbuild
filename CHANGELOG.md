@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.13](https://github.com/davipon/fastify-esbuild/compare/v0.0.12...v0.0.13) (2022-05-17)
+
+
+### ✨ Features
+
+* add getOnePostHandler ([134c26d](https://github.com/davipon/fastify-esbuild/commit/134c26d1abda10369c1448551199d57ea20fabdb))
+* add Reply type in putPostsHandler and deletePostsHandler ([f30ea17](https://github.com/davipon/fastify-esbuild/commit/f30ea17d57a83e7d15aeadcb5854256d8ae2e7b3))
+
+
+### 🔨 Build System
+
+* bump to latest version ([82be004](https://github.com/davipon/fastify-esbuild/commit/82be00449fb9a5fe924e9224beef6564c2d396ff))
+
 ### [0.0.12](https://github.com/davipon/fastify-esbuild/compare/v0.0.11...v0.0.12) (2022-05-14)
 
 
