@@ -1,28 +1,27 @@
-import { FastifyPluginAsync } from 'fastify'
+import { type FastifyInstance } from 'fastify'
 import {
   postSchema,
   postNotFoundSchema,
   getPostsSchema,
+  getOnePostSchema,
   postPostsSchema,
   putPostsSchema,
   deletePostsSchema
 } from './schema'
 import {
-  getAllPostsHandler,
   getPostsHandler,
+  getOnePostHandler,
   postPostsHandler,
   putPostsHandler,
   deletePostsHandler
 } from './handler'
 
-const posts: FastifyPluginAsync = async (fastify): Promise<void> => {
+export default async (fastify: FastifyInstance) => {
   fastify.addSchema(postSchema)
   fastify.addSchema(postNotFoundSchema)
-  fastify.get('/', { schema: getPostsSchema }, getAllPostsHandler)
-  fastify.get('/:postid', { schema: getPostsSchema }, getPostsHandler)
+  fastify.get('/', { schema: getPostsSchema }, getPostsHandler)
+  fastify.get('/:postid', { schema: getOnePostSchema }, getOnePostHandler)
   fastify.post('/', { schema: postPostsSchema }, postPostsHandler)
   fastify.put('/:postid', { schema: putPostsSchema }, putPostsHandler)
   fastify.delete('/:postid', { schema: deletePostsSchema }, deletePostsHandler)
 }
-
-export default posts

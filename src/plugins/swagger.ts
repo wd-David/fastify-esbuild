@@ -13,16 +13,7 @@ export default fp<FastifyDynamicSwaggerOptions>(async (fastify, opts) => {
         {
           url: 'http://localhost'
         }
-      ],
-      components: {
-        securitySchemes: {
-          apiKey: {
-            type: 'apiKey',
-            name: 'apiKey',
-            in: 'header'
-          }
-        }
-      }
+      ]
     },
     hideUntagged: true,
     exposeRoute: true

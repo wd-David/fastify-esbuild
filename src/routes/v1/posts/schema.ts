@@ -75,8 +75,18 @@ export type GetPostsResponse = FromSchema<
 /* Get */
 export const getPostsSchema: FastifySchema = {
   tags: ['Posts'],
-  description: 'Get a post by id',
+  description: 'Get posts',
   querystring: postsQuerySchema,
+  response: {
+    200: {
+      ...getPostsResponseSchema
+    }
+  }
+}
+
+export const getOnePostSchema: FastifySchema = {
+  tags: ['Posts'],
+  description: 'Get a post by id',
   params: postsParamsSchema,
   response: {
     200: {
@@ -117,7 +127,7 @@ export const putPostsSchema: FastifySchema = {
   response: {
     204: {
       description: 'The post was updated',
-      type: 'object'
+      type: 'null'
     },
     404: {
       description: 'The post was not found',
@@ -134,7 +144,7 @@ export const deletePostsSchema: FastifySchema = {
   response: {
     204: {
       description: 'The post was deleted',
-      type: 'object'
+      type: 'null'
     },
     404: {
       description: 'The post was not found',
