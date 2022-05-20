@@ -1,0 +1,103 @@
+{
+  "client": "Thunder Client",
+  "collectionName": "CRUD demo",
+  "dateExported": "2022-05-20T14:04:52.521Z",
+  "version": "1.1",
+  "folders": [],
+  "requests": [
+    {
+      "_id": "d477d35c-6152-4dbe-bbdf-c93b99fc2c5c",
+      "colId": "b31ff754-a650-4863-83a6-bf83240ab47e",
+      "containerId": "",
+      "name": "Get all posts",
+      "url": "http://localhost:3000/v1/posts",
+      "method": "GET",
+      "sortNum": 10000,
+      "created": "2022-05-14T07:37:34.748Z",
+      "modified": "2022-05-14T07:37:44.574Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "02d7696e-46fc-475d-9415-6f2bd249171e",
+      "colId": "b31ff754-a650-4863-83a6-bf83240ab47e",
+      "containerId": "",
+      "name": "Get specific post",
+      "url": "http://localhost:3000/v1/posts/1",
+      "method": "GET",
+      "sortNum": 20000,
+      "created": "2022-05-14T07:38:24.107Z",
+      "modified": "2022-05-15T05:40:13.798Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "0919215b-9fd6-47c3-a4c5-e9e3cc4c0c71",
+      "colId": "b31ff754-a650-4863-83a6-bf83240ab47e",
+      "containerId": "",
+      "name": "Add new post",
+      "url": "http://localhost:3000/v1/posts",
+      "method": "POST",
+      "sortNum": 30000,
+      "created": "2022-05-14T08:05:39.553Z",
+      "modified": "2022-05-19T12:58:28.213Z",
+      "headers": [],
+      "params": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n    \"title\": \"Boring Post!\",\n    \"published\": true,\n    \"content\": \"This is a Boring post\",\n    \"tags\": [\"boring\"],\n    \"deleted\": false\n}",
+        "form": []
+      },
+      "tests": []
+    },
+    {
+      "_id": "34f285f9-5c07-4577-86b4-25bbf8c2c165",
+      "colId": "b31ff754-a650-4863-83a6-bf83240ab47e",
+      "containerId": "",
+      "name": "Update specific post",
+      "url": "http://localhost:3000/v1/posts/1",
+      "method": "PUT",
+      "sortNum": 40000,
+      "created": "2022-05-14T08:06:32.068Z",
+      "modified": "2022-05-20T12:55:34.851Z",
+      "headers": [],
+      "params": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n    \"title\": \"Boring Post!\",\n    \"published\": true,\n    \"content\": \"This is a Boring post\",\n    \"tags\": [\"boring\"],\n    \"deleted\": false\n}",
+        "form": []
+      },
+      "tests": []
+    },
+    {
+      "_id": "f8455ca2-7a14-43fb-8a0e-38a98c3e1187",
+      "colId": "b31ff754-a650-4863-83a6-bf83240ab47e",
+      "containerId": "",
+      "name": "Delete specific post",
+      "url": "http://localhost:3000/v1/posts/2",
+      "method": "DELETE",
+      "sortNum": 50000,
+      "created": "2022-05-14T08:07:42.575Z",
+      "modified": "2022-05-20T14:04:42.077Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "4fcec8b8-f868-4816-b16f-93d1d67ed7de",
+      "colId": "b31ff754-a650-4863-83a6-bf83240ab47e",
+      "containerId": "",
+      "name": "Get filtered posts ",
+      "url": "http://localhost:3000/v1/posts?deleted=true",
+      "method": "GET",
+      "sortNum": 60000,
+      "created": "2022-05-14T12:08:28.183Z",
+      "modified": "2022-05-14T12:26:56.817Z",
+      "headers": [],
+      "params": [{ "name": "deleted", "value": "true", "isPath": false }],
+      "tests": []
+    }
+  ]
+}
