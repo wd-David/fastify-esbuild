@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.15](https://github.com/davipon/fastify-esbuild/compare/v0.0.14...v0.0.15) (2022-05-20)
+
+
+### 📝 Documentation
+
+* **thunder client:** add thunder client testing collections ([8862ae7](https://github.com/davipon/fastify-esbuild/commit/8862ae7e874d69f5f172325445f0a95ee014a155))
+
 ### [0.0.14](https://github.com/davipon/fastify-esbuild/compare/v0.0.13...v0.0.14) (2022-05-20)
 
 
