@@ -1,16 +1,16 @@
 import { type RouteHandler } from 'fastify'
 import {
-  type PostsParams,
-  type PostsQuery,
-  type PostsBody,
-  type GetPostsResponse,
-  type NotFoundResponse
+  type Params,
+  type Querystring,
+  type Body,
+  type Reply,
+  type PostNotFound
 } from './schema'
 import { posts } from './posts'
 
 export const getPostsHandler: RouteHandler<{
-  Querystring: PostsQuery
-  Reply: GetPostsResponse
+  Querystring: Querystring
+  Reply: Reply
 }> = async function (req, reply) {
   const { deleted } = req.query
   if (deleted !== undefined) {
@@ -20,8 +20,8 @@ export const getPostsHandler: RouteHandler<{
 }
 
 export const getOnePostHandler: RouteHandler<{
-  Params: PostsParams
-  Reply: GetPostsResponse | NotFoundResponse
+  Params: Params
+  Reply: Reply | PostNotFound
 }> = async function (req, reply) {
   const { postid } = req.params
   const post = posts.find((p) => p.id == postid)
@@ -30,21 +30,23 @@ export const getOnePostHandler: RouteHandler<{
 }
 
 export const postPostsHandler: RouteHandler<{
-  Body: PostsBody
+  Body: Body
+  Reply: Body
 }> = async function (req, reply) {
   const newPostID = posts.length + 1
-  posts.push({
+  const newPost = {
     id: newPostID,
     ...req.body
-  })
+  }
+  posts.push(newPost)
   console.log(posts)
-  reply.code(201).header('Location', `/posts/${newPostID}`).send({})
+  reply.code(201).header('Location', `/posts/${newPostID}`).send(newPost)
 }
 
 export const putPostsHandler: RouteHandler<{
-  Params: PostsParams
-  Body: PostsBody
-  Reply: NotFoundResponse
+  Params: Params
+  Body: Body
+  Reply: PostNotFound
 }> = async function (req, reply) {
   const { postid } = req.params
   const post = posts.find((p) => p.id == postid)
@@ -59,8 +61,8 @@ export const putPostsHandler: RouteHandler<{
 }
 
 export const deletePostsHandler: RouteHandler<{
-  Params: PostsParams
-  Reply: NotFoundResponse
+  Params: Params
+  Reply: PostNotFound
 }> = async function (req, reply) {
   const { postid } = req.params
   const post = posts.find((p) => p.id == postid)

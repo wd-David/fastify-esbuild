@@ -27,10 +27,10 @@ export const postNotFoundSchema = {
   additionalProperties: false
 } as const
 
-export type NotFoundResponse = FromSchema<typeof postNotFoundSchema>
+export type PostNotFound = FromSchema<typeof postNotFoundSchema>
 
 // Params Schema
-const postsParamsSchema = {
+const paramsSchema = {
   type: 'object',
   require: ['postid'],
   properties: {
@@ -39,10 +39,10 @@ const postsParamsSchema = {
   additionalProperties: false
 } as const
 
-export type PostsParams = FromSchema<typeof postsParamsSchema>
+export type Params = FromSchema<typeof paramsSchema>
 
 // Query Schema
-const postsQuerySchema = {
+const querystringSchema = {
   type: 'object',
   properties: {
     deleted: { type: 'boolean' }
@@ -50,13 +50,13 @@ const postsQuerySchema = {
   additionalProperties: false
 } as const
 
-export type PostsQuery = FromSchema<typeof postsQuerySchema>
+export type Querystring = FromSchema<typeof querystringSchema>
 
 // Body Schema
-export type PostsBody = FromSchema<typeof postSchema>
+export type Body = FromSchema<typeof postSchema>
 
 // Response Schema
-const getPostsResponseSchema = {
+const replySchema = {
   type: 'object',
   properties: {
     posts: {
@@ -67,8 +67,8 @@ const getPostsResponseSchema = {
   additionalProperties: false
 } as const
 
-export type GetPostsResponse = FromSchema<
-  typeof getPostsResponseSchema,
+export type Reply = FromSchema<
+  typeof replySchema,
   { references: [typeof postSchema] }
 >
 
@@ -76,10 +76,10 @@ export type GetPostsResponse = FromSchema<
 export const getPostsSchema: FastifySchema = {
   tags: ['Posts'],
   description: 'Get posts',
-  querystring: postsQuerySchema,
+  querystring: querystringSchema,
   response: {
     200: {
-      ...getPostsResponseSchema
+      ...replySchema
     }
   }
 }
@@ -87,10 +87,10 @@ export const getPostsSchema: FastifySchema = {
 export const getOnePostSchema: FastifySchema = {
   tags: ['Posts'],
   description: 'Get a post by id',
-  params: postsParamsSchema,
+  params: paramsSchema,
   response: {
     200: {
-      ...getPostsResponseSchema
+      ...replySchema
     },
     404: {
       description: 'The post was not found',
@@ -113,7 +113,7 @@ export const postPostsSchema: FastifySchema = {
           description: 'URL of the new resource'
         }
       },
-      type: 'object'
+      ...postSchema
     }
   }
 }
@@ -122,7 +122,7 @@ export const postPostsSchema: FastifySchema = {
 export const putPostsSchema: FastifySchema = {
   tags: ['Posts'],
   description: 'Update a post',
-  params: postsParamsSchema,
+  params: paramsSchema,
   body: postSchema,
   response: {
     204: {
@@ -140,7 +140,7 @@ export const putPostsSchema: FastifySchema = {
 export const deletePostsSchema: FastifySchema = {
   tags: ['Posts'],
   description: 'Delete a post',
-  params: postsParamsSchema,
+  params: paramsSchema,
   response: {
     204: {
       description: 'The post was deleted',
