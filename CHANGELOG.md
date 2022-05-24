@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.17](https://github.com/davipon/fastify-esbuild/compare/v0.0.15...v0.0.17) (2022-05-24)
+
+
+### 🚚 Chores
+
+* change import type syntax ([0aa758e](https://github.com/davipon/fastify-esbuild/commit/0aa758e614e4a8b423e25f271c127816d4de500c))
+
 ### [0.0.16](https://github.com/davipon/fastify-esbuild/compare/v0.0.15...v0.0.16) (2022-05-24)
 
 ### 🚚 Chores
