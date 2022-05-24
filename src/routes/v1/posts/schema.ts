@@ -1,4 +1,4 @@
-import { FastifySchema } from 'fastify'
+import type { FastifySchema } from 'fastify'
 import { FromSchema } from 'json-schema-to-ts'
 
 // Shared Schema

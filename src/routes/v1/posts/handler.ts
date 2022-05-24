@@ -1,11 +1,5 @@
 import { type RouteHandler } from 'fastify'
-import {
-  type Params,
-  type Querystring,
-  type Body,
-  type Reply,
-  type PostNotFound
-} from './schema'
+import type { Params, Querystring, Body, Reply, PostNotFound } from './schema'
 import { posts } from './posts'
 
 export const getPostsHandler: RouteHandler<{

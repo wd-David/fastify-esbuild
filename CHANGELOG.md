@@ -2,122 +2,110 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.0.15](https://github.com/davipon/fastify-esbuild/compare/v0.0.14...v0.0.15) (2022-05-20)
+### [0.0.16](https://github.com/davipon/fastify-esbuild/compare/v0.0.15...v0.0.16) (2022-05-24)
 
+### 🚚 Chores
+
+- change import type syntax ([14e53da](https://github.com/davipon/fastify-esbuild/commit/14e53da68d1c51097d9a70e435a369c384b7a54f))
+
+### [0.0.15](https://github.com/davipon/fastify-esbuild/compare/v0.0.14...v0.0.15) (2022-05-20)
 
 ### 📝 Documentation
 
-* **thunder client:** add thunder client testing collections ([8862ae7](https://github.com/davipon/fastify-esbuild/commit/8862ae7e874d69f5f172325445f0a95ee014a155))
+- **thunder client:** add thunder client testing collections ([8862ae7](https://github.com/davipon/fastify-esbuild/commit/8862ae7e874d69f5f172325445f0a95ee014a155))
 
 ### [0.0.14](https://github.com/davipon/fastify-esbuild/compare/v0.0.13...v0.0.14) (2022-05-20)
 
-
 ### ♻️ Code Refactoring
 
-* rename schemas ([3578512](https://github.com/davipon/fastify-esbuild/commit/3578512d8d75c512d187918227fe702276b55472))
+- rename schemas ([3578512](https://github.com/davipon/fastify-esbuild/commit/3578512d8d75c512d187918227fe702276b55472))
 
 ### [0.0.13](https://github.com/davipon/fastify-esbuild/compare/v0.0.12...v0.0.13) (2022-05-17)
 
-
 ### ✨ Features
 
-* add getOnePostHandler ([134c26d](https://github.com/davipon/fastify-esbuild/commit/134c26d1abda10369c1448551199d57ea20fabdb))
-* add Reply type in putPostsHandler and deletePostsHandler ([f30ea17](https://github.com/davipon/fastify-esbuild/commit/f30ea17d57a83e7d15aeadcb5854256d8ae2e7b3))
-
+- add getOnePostHandler ([134c26d](https://github.com/davipon/fastify-esbuild/commit/134c26d1abda10369c1448551199d57ea20fabdb))
+- add Reply type in putPostsHandler and deletePostsHandler ([f30ea17](https://github.com/davipon/fastify-esbuild/commit/f30ea17d57a83e7d15aeadcb5854256d8ae2e7b3))
 
 ### 🔨 Build System
 
-* bump to latest version ([82be004](https://github.com/davipon/fastify-esbuild/commit/82be00449fb9a5fe924e9224beef6564c2d396ff))
+- bump to latest version ([82be004](https://github.com/davipon/fastify-esbuild/commit/82be00449fb9a5fe924e9224beef6564c2d396ff))
 
 ### [0.0.12](https://github.com/davipon/fastify-esbuild/compare/v0.0.11...v0.0.12) (2022-05-14)
 
-
 ### 🚚 Chores
 
-* update tsconfig.json ([36c12b3](https://github.com/davipon/fastify-esbuild/commit/36c12b3520df07f893cc63b19bd4f26855af61df))
-
+- update tsconfig.json ([36c12b3](https://github.com/davipon/fastify-esbuild/commit/36c12b3520df07f893cc63b19bd4f26855af61df))
 
 ### ✨ Features
 
-* **posts:** add posts route, add swagger ([6d62ee0](https://github.com/davipon/fastify-esbuild/commit/6d62ee0bc892e3a4d6f2f0cf8f89e173e8706ba9))
+- **posts:** add posts route, add swagger ([6d62ee0](https://github.com/davipon/fastify-esbuild/commit/6d62ee0bc892e3a4d6f2f0cf8f89e173e8706ba9))
 
 ### [0.0.11](https://github.com/davipon/fastify-esbuild/compare/v0.0.10...v0.0.11) (2022-05-04)
 
-
 ### 📝 Documentation
 
-* update README.md ([4495ba7](https://github.com/davipon/fastify-esbuild/commit/4495ba79c8489bb1e49d90750a482c8a974c1cc6))
-
+- update README.md ([4495ba7](https://github.com/davipon/fastify-esbuild/commit/4495ba79c8489bb1e49d90750a482c8a974c1cc6))
 
 ### 🔨 Build System
 
-* remove esbuild-node-tsc ([0b7af6d](https://github.com/davipon/fastify-esbuild/commit/0b7af6d80bc0866b26c2bb86b4cea6b6d1057a02))
-* rename build.js to esbuild.js ([2510d7b](https://github.com/davipon/fastify-esbuild/commit/2510d7b5ef3bbe90a72460adf685d4ca92f5d961))
+- remove esbuild-node-tsc ([0b7af6d](https://github.com/davipon/fastify-esbuild/commit/0b7af6d80bc0866b26c2bb86b4cea6b6d1057a02))
+- rename build.js to esbuild.js ([2510d7b](https://github.com/davipon/fastify-esbuild/commit/2510d7b5ef3bbe90a72460adf685d4ca92f5d961))
 
 ### [0.0.10](https://github.com/davipon/fastify-esbuild/compare/v0.0.9...v0.0.10) (2022-05-03)
 
-
 ### 🚚 Chores
 
-* **logging:** add pino-pretty to prettify logs ([c1c7593](https://github.com/davipon/fastify-esbuild/commit/c1c7593ee7c6fc0cbdd7e2a34bc1cc80262e6929))
+- **logging:** add pino-pretty to prettify logs ([c1c7593](https://github.com/davipon/fastify-esbuild/commit/c1c7593ee7c6fc0cbdd7e2a34bc1cc80262e6929))
 
 ### [0.0.9](https://github.com/davipon/fastify-esbuild/compare/v0.0.8...v0.0.9) (2022-05-03)
 
-
 ### 📝 Documentation
 
-* update README.md ([a336728](https://github.com/davipon/fastify-esbuild/commit/a3367288f9d1501997a4ee008444eb1484df419a))
+- update README.md ([a336728](https://github.com/davipon/fastify-esbuild/commit/a3367288f9d1501997a4ee008444eb1484df419a))
 
 ### [0.0.8](https://github.com/davipon/fastify-esbuild/compare/v0.0.7...v0.0.8) (2022-05-03)
 
-
 ### 🔨 Build System
 
-* **esbuild:** remove minify flag ([9b3dc99](https://github.com/davipon/fastify-esbuild/commit/9b3dc991feead8ba37f2dd1ac1f5aa8bc9d724a8))
+- **esbuild:** remove minify flag ([9b3dc99](https://github.com/davipon/fastify-esbuild/commit/9b3dc991feead8ba37f2dd1ac1f5aa8bc9d724a8))
 
 ### [0.0.7](https://github.com/davipon/fastify-esbuild/compare/v0.0.6...v0.0.7) (2022-05-01)
 
-
 ### 🚚 Chores
 
-* **dep:** update dep ([deb5b94](https://github.com/davipon/fastify-esbuild/commit/deb5b9495da7bf5c396b1a43103ec5612cf2fc8f))
+- **dep:** update dep ([deb5b94](https://github.com/davipon/fastify-esbuild/commit/deb5b9495da7bf5c396b1a43103ec5612cf2fc8f))
 
 ### [0.0.6](https://github.com/davipon/fastify-esbuild/compare/v0.0.5...v0.0.6) (2022-04-28)
 
-
 ### 🚚 Chores
 
-* **esbuild:** remove resolve-extensions in build script ([8f12b2b](https://github.com/davipon/fastify-esbuild/commit/8f12b2b4d15b8b7a8d5c571d4a2c1ee2d364333d))
-
+- **esbuild:** remove resolve-extensions in build script ([8f12b2b](https://github.com/davipon/fastify-esbuild/commit/8f12b2b4d15b8b7a8d5c571d4a2c1ee2d364333d))
 
 ### 🔨 Build System
 
-* **esbuild:** add windows compatible build script ([dd3fe39](https://github.com/davipon/fastify-esbuild/commit/dd3fe39f6ce337e3771cfb28214df45bd808b946))
+- **esbuild:** add windows compatible build script ([dd3fe39](https://github.com/davipon/fastify-esbuild/commit/dd3fe39f6ce337e3771cfb28214df45bd808b946))
 
 ### [0.0.5](https://github.com/davipon/fastify-esbuild/compare/v0.0.4...v0.0.5) (2022-04-25)
 
-
 ### 🚚 Chores
 
-* **changelog:** add build type in .versionrc ([6ba43fe](https://github.com/davipon/fastify-esbuild/commit/6ba43fe579ff966eff3647ef1b23f6795be3265e))
+- **changelog:** add build type in .versionrc ([6ba43fe](https://github.com/davipon/fastify-esbuild/commit/6ba43fe579ff966eff3647ef1b23f6795be3265e))
 
 ### [0.0.4](https://github.com/davipon/fastify-esbuild/compare/v0.0.3...v0.0.4) (2022-04-25)
 
-
 ### ✨ Features
 
-* **fastify-autoload:** add fastify-autoload ([34384ee](https://github.com/davipon/fastify-esbuild/commit/34384ee33ac67eb7e6e9192befc827ca952e4ad4))
+- **fastify-autoload:** add fastify-autoload ([34384ee](https://github.com/davipon/fastify-esbuild/commit/34384ee33ac67eb7e6e9192befc827ca952e4ad4))
 
 ### [0.0.3](https://github.com/davipon/fastify-esbuild/compare/v0.0.2...v0.0.3) (2022-04-24)
 
-
 ### 📝 Documentation
 
-* **readme:** add README.md ([cec0ccd](https://github.com/davipon/fastify-esbuild/commit/cec0ccdebf23dbd3816f32cc2249d6490708e6a0))
+- **readme:** add README.md ([cec0ccd](https://github.com/davipon/fastify-esbuild/commit/cec0ccdebf23dbd3816f32cc2249d6490708e6a0))
 
 ### 0.0.2 (2022-04-24)
 
-
 ### ✨ Features
 
-* **Initial-repo:** first commit of fastify-esbuild fcc6116
+- **Initial-repo:** first commit of fastify-esbuild fcc6116
