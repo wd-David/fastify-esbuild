@@ -32,7 +32,7 @@ export type PostNotFound = FromSchema<typeof postNotFoundSchema>
 // Params Schema
 const paramsSchema = {
   type: 'object',
-  require: ['postid'],
+  required: ['postid'],
   properties: {
     postid: { type: 'number' }
   },
