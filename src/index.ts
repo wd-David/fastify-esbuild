@@ -4,10 +4,14 @@ import autoLoad from '@fastify/autoload'
 
 const fastify = Fastify({
   logger: {
-    prettyPrint: {
-      colorize: true,
-      translateTime: 'HH:MM:ss.l',
-      ignore: 'pid,hostname'
+    transport: {
+      target: 'pino-pretty',
+      options: {
+        destination: 1,
+        colorize: true,
+        translateTime: 'HH:MM:ss.l',
+        ignore: 'pid,hostname'
+      }
     }
   }
 })
@@ -22,7 +26,7 @@ fastify.register(autoLoad, {
 
 const start = async () => {
   try {
-    await fastify.listen(3000)
+    await fastify.listen({ port: 3000 })
   } catch (err) {
     fastify.log.error(err)
     process.exit(1)

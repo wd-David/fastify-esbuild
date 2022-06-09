@@ -14,32 +14,32 @@
   "author": "David Peng",
   "license": "ISC",
   "devDependencies": {
-    "@commitlint/cli": "^17.0.0",
-    "@commitlint/config-conventional": "^17.0.0",
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
     "@commitlint/cz-commitlint": "^17.0.0",
-    "@types/node": "^17.0.34",
-    "@typescript-eslint/eslint-plugin": "^5.24.0",
-    "@typescript-eslint/parser": "^5.24.0",
+    "@types/node": "^17.0.41",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
     "commitizen": "^4.2.4",
-    "esbuild": "^0.14.39",
-    "eslint": "^8.15.0",
+    "esbuild": "^0.14.43",
+    "eslint": "^8.17.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^8.0.1",
     "inquirer": "^8.2.4",
-    "json-schema-to-ts": "^2.4.0",
-    "lint-staged": "^12.4.1",
+    "json-schema-to-ts": "^2.5.3",
+    "lint-staged": "^13.0.1",
     "nodemon": "^2.0.16",
+    "pino-pretty": "^8.0.0",
     "prettier": "^2.6.2",
     "standard-version": "^9.5.0",
-    "typescript": "^4.6.4"
+    "typescript": "^4.7.3"
   },
   "dependencies": {
-    "@fastify/autoload": "^4.0.1",
-    "@fastify/sensible": "^4.1.0",
-    "@fastify/swagger": "^6.0.1",
-    "fastify": "^3.29.0",
-    "fastify-plugin": "^3.0.1",
-    "pino-pretty": "^7.6.1"
+    "@fastify/autoload": "^5.0.0",
+    "@fastify/sensible": "^5.0.0",
+    "@fastify/swagger": "^7.2.0",
+    "fastify": "^4.0.0",
+    "fastify-plugin": "^3.0.1"
   }
 }
