@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.0](https://github.com/davipon/fastify-esbuild/compare/v0.0.17...v0.1.0) (2022-06-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* **esbuild:** create an esbuild plugin to generate additional files for pino
+
+### 📝 Documentation
+
+* **readme.md:** add article in README.md ([23d367c](https://github.com/davipon/fastify-esbuild/commit/23d367cb4f3010bd4aa40031b60a639d1e83d98b))
+
+
+### 🚚 Chores
+
+* **commitizen:** add .czrc to enable interactive mode ([2d9802b](https://github.com/davipon/fastify-esbuild/commit/2d9802b559a050dd73662710c9ddeaabbf7865b2))
+* update fastify and refactor breaking changes in startup config ([7b75879](https://github.com/davipon/fastify-esbuild/commit/7b75879086c45d4a3905d02a644e2c8e02c8e1a9))
+
+
+### 🐛 Bug Fixes
+
+* **esbuild:** fix production code cannot work issue ([72d0588](https://github.com/davipon/fastify-esbuild/commit/72d05888082bb33d311085d2cc89c5dbcb6cfd86))
+
 ### [0.0.17](https://github.com/davipon/fastify-esbuild/compare/v0.0.15...v0.0.17) (2022-05-24)
 
 
