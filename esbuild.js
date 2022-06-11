@@ -41,12 +41,12 @@ const pinoPlugin = (options) => ({
           outbase = nextOutbase
           i++
           nextOutbase = hierarchy.slice(0, i).join(sep)
-        } while (entrypoints.every((e) => e.startsWith(`${nextOutbase}\\`)))
+        } while (entrypoints.every((e) => e.startsWith(`${nextOutbase}${sep}`)))
       }
       const newEntrypoints = {}
       for (const entrypoint of entrypoints) {
         const destination = (
-          outbase ? entrypoint.replace(`${outbase}\\`, '') : entrypoint
+          outbase ? entrypoint.replace(`${outbase}${sep}`, '') : entrypoint
         ).replace(/.(js|ts)$/, '')
         newEntrypoints[destination] = entrypoint
       }
