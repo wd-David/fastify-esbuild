@@ -2,9 +2,13 @@
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
+Opinionated boilerplate to build a Fastify app with better DX.
+
 ---
 
-Opinionated boilerplate to build a Fastify app with better DX.
+## Article
+
+[Better Backend DX: Fastify + ESBuild = ⚡️](https://davipon.hashnode.dev/better-backend-dx-fastify-esbuild)
 
 ## Features
 
