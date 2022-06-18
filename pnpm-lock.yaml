@@ -12,6 +12,7 @@ specifiers:
   '@typescript-eslint/parser': ^5.27.1
   commitizen: ^4.2.4
   esbuild: ^0.14.43
+  esbuild-plugin-pino: ^1.1.6
   eslint: ^8.17.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-prettier: ^4.0.0
@@ -45,6 +46,7 @@ devDependencies:
   '@typescript-eslint/parser': 5.27.1_ud6rd4xtew5bv4yhvkvu24pzm4
   commitizen: 4.2.4
   esbuild: 0.14.43
+  esbuild-plugin-pino: 1.1.6
   eslint: 8.17.0
   eslint-config-prettier: 8.5.0_eslint@8.17.0
   eslint-plugin-prettier: 4.0.0_ucegkljdju7q4zmvwxzqoprf3y
@@ -1700,6 +1702,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /esbuild-plugin-pino/1.1.6:
+    resolution: {integrity: sha512-xPC05lHzGfzTpR71PS6dByha3idVpXqsnJCutvh3ZGINbADaM3NTHFd8OZMyEGpyJzGHDfFSo9pi4I+DBfjKFw==}
+    dev: true
 
   /esbuild-sunos-64/0.14.43:
     resolution: {integrity: sha512-DgxSi9DaHReL9gYuul2rrQCAapgnCJkh3LSHPKsY26zytYppG0HgkgVF80zjIlvEsUbGBP/GHQzBtrezj/Zq1Q==}
