@@ -8,7 +8,8 @@
     "format": "prettier --write 'src/**/*.{js,ts,json,md}'",
     "lint": "prettier --check 'src/**/*.{js,ts,json,md}' && eslint --ignore-path .gitignore .",
     "cz": "cz",
-    "release": "standard-version --no-verify"
+    "release": "standard-version --no-verify",
+    "release:patch": "standard-version --no-verify --release-as patch"
   },
   "author": "David Peng",
   "license": "ISC",
