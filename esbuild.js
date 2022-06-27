@@ -28,8 +28,10 @@ build({
   logLevel: 'info',
   outdir: env === 'dev' ? 'dist' : 'build',
   bundle: env === 'dev' ? false : true,
+  minify: env === 'dev' ? false : true,
   platform: 'node',
   format: 'cjs',
+  sourcemap: true,
   plugins:
     env === 'dev' ? [] : [esbuildPluginPino({ transports: ['pino-pretty'] })]
 })

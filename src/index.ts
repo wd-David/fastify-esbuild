@@ -15,7 +15,6 @@ const fastify = Fastify({
     }
   }
 })
-
 fastify.register(autoLoad, {
   dir: join(__dirname, 'plugins')
 })
