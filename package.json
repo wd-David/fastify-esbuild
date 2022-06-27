@@ -27,7 +27,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^8.0.1",
-    "inquirer": "^8.2.4",
+    "inquirer": "9.0.0",
     "json-schema-to-ts": "^2.5.3",
     "lint-staged": "^13.0.2",
     "nodemon": "^2.0.16",
