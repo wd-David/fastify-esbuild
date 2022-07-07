@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "scripts": {
     "prepare": "husky install",
-    "dev": "tsx watch src",
+    "dev": "nodemon",
     "build": "rm -rf build && node esbuild.js",
     "format": "prettier --write src",
     "lint": "prettier --check src && eslint --ignore-path .gitignore .",
