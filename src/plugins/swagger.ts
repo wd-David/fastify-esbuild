@@ -1,7 +1,7 @@
 import fp from 'fastify-plugin'
 import swagger, { FastifyDynamicSwaggerOptions } from '@fastify/swagger'
 
-export default fp<FastifyDynamicSwaggerOptions>(async (fastify, opts) => {
+export default fp<FastifyDynamicSwaggerOptions>(async (fastify) => {
   fastify.register(swagger, {
     openapi: {
       info: {
