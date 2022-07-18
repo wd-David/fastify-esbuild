@@ -2,6 +2,50 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/davipon/fastify-esbuild/compare/v0.1.1...v0.1.2) (2022-07-18)
+
+
+### 💄 Styling
+
+* **prettier:** formatting ([7c88759](https://github.com/davipon/fastify-esbuild/commit/7c887596777543e6bca1efcd246436f031392c39))
+
+
+### 🚚 Chores
+
+* **deps:** add renovate.json ([#3](https://github.com/davipon/fastify-esbuild/issues/3)) ([b043353](https://github.com/davipon/fastify-esbuild/commit/b0433531f33ac0aec6864b91b4303ea03ce2edf7))
+* **deps:** pin dependencies ([#4](https://github.com/davipon/fastify-esbuild/issues/4)) ([990ef89](https://github.com/davipon/fastify-esbuild/commit/990ef897d7e5b5d63f916fb535760473e7a67d7f))
+* **deps:** update dependency commitizen to v4.2.5 ([371746f](https://github.com/davipon/fastify-esbuild/commit/371746f4bf98f1daf14e178000813d168c4cd7a4))
+* **deps:** update dependency esbuild to v0.14.48 ([3bc1f2e](https://github.com/davipon/fastify-esbuild/commit/3bc1f2e42974cd1b830fa0e4a2812f12a998ba61))
+* **deps:** update dependency esbuild to v0.14.49 ([#15](https://github.com/davipon/fastify-esbuild/issues/15)) ([431cac5](https://github.com/davipon/fastify-esbuild/commit/431cac5f338724acd7b1afb38bc6feb7cf650e4d))
+* **deps:** update dependency esbuild-plugin-pino to v1.2.1 ([4e0b5ec](https://github.com/davipon/fastify-esbuild/commit/4e0b5ec771828f41f29da37e7b5962a6c979c409))
+* **deps:** update dependency eslint-plugin-prettier to v4.1.0 ([#8](https://github.com/davipon/fastify-esbuild/issues/8)) ([51006b3](https://github.com/davipon/fastify-esbuild/commit/51006b38ab3c037715ffb2c31492067e1fa11ae3))
+* **deps:** update dependency inquirer to v9 ([#10](https://github.com/davipon/fastify-esbuild/issues/10)) ([3194343](https://github.com/davipon/fastify-esbuild/commit/31943433f13561e069ccf744b8379014a1156c7d))
+* **deps:** update dependency json-schema-to-ts to v2.5.4 ([98f6de4](https://github.com/davipon/fastify-esbuild/commit/98f6de47281240f0da32374f50c754cb3672edce))
+* **deps:** update dependency nodemon to v2.0.19 ([9393c17](https://github.com/davipon/fastify-esbuild/commit/9393c173d74a339122f59a3ed361817bac9a83ee))
+* **deps:** update dependency thread-stream to v1.0.1 ([f9f6266](https://github.com/davipon/fastify-esbuild/commit/f9f6266e7be42c3ca5ba4101462d68b8fff1f51c))
+* **deps:** update typescript-eslint monorepo to v5.30.0 ([#9](https://github.com/davipon/fastify-esbuild/issues/9)) ([abe5c74](https://github.com/davipon/fastify-esbuild/commit/abe5c7459ab57c09bb82be48dd3a2cc52589829a))
+* **deps:** update typescript-eslint monorepo to v5.30.6 ([#20](https://github.com/davipon/fastify-esbuild/issues/20)) ([6e0f3f7](https://github.com/davipon/fastify-esbuild/commit/6e0f3f721062be56b1163ca716686f1a7f79fb5d))
+* **renovate:** change schedule to execute once a week ([5b83675](https://github.com/davipon/fastify-esbuild/commit/5b83675796d233b526c50796b415c06411a37bcd))
+
+
+### ✨ Features
+
+* replace nodemon with tsx ([39ebb8d](https://github.com/davipon/fastify-esbuild/commit/39ebb8d310dd595b941a74bbfc9b2d729b11bad8))
+* **tsx:** replace nodemon with tsx ([3ed6bb1](https://github.com/davipon/fastify-esbuild/commit/3ed6bb1cc2f64814d01f969c9bad09722bbe7516))
+
+
+### 📝 Documentation
+
+* update README.md ([5e775ca](https://github.com/davipon/fastify-esbuild/commit/5e775ca70086c945f0c2c2f2ecb92009819d67bf))
+
+
+### 🐛 Bug Fixes
+
+* **plugins\sensible.ts:** dropped custom errorHandler option in @fastify/sensible registration ([#14](https://github.com/davipon/fastify-esbuild/issues/14)) ([b36c475](https://github.com/davipon/fastify-esbuild/commit/b36c475dd60ee75132e732b2cd4cc74d24aa0f64))
+* remove dev.ts ([f1c9062](https://github.com/davipon/fastify-esbuild/commit/f1c90629a531778a42b5aee1a869277002d455ce))
+* remove unused var ([c056887](https://github.com/davipon/fastify-esbuild/commit/c056887fedc11fdd37fe35ffb3a6123de63b1508))
+* replace tsx with nodemon in dev ([e0d1a03](https://github.com/davipon/fastify-esbuild/commit/e0d1a035ecff85da8b1f9f5e1d571b5c697477d5))
+
 ### [0.1.1](https://github.com/davipon/fastify-esbuild/compare/v0.0.17...v0.1.1) (2022-06-18)
 
 
