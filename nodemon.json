@@ -1,7 +1,0 @@
-{
-  "watch": ["src"],
-  "ignore": ["src/**/*.{test,spec}.ts"],
-  "ext": "ts,mjs,js,json,graphql",
-  "exec": "node esbuild.js dev && node dist",
-  "legacyWatch": true
-}
