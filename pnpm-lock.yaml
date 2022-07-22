@@ -16,7 +16,7 @@ specifiers:
   eslint: 8.20.0
   eslint-config-prettier: 8.5.0
   eslint-plugin-prettier: 4.2.1
-  fastify: 4.2.1
+  fastify: 4.3.0
   fastify-plugin: 4.0.0
   husky: 8.0.1
   inquirer: ^8.0.0
@@ -35,7 +35,7 @@ dependencies:
   '@fastify/autoload': 5.1.0
   '@fastify/sensible': 5.1.0
   '@fastify/swagger': 7.4.1
-  fastify: 4.2.1
+  fastify: 4.3.0
   fastify-plugin: 4.0.0
 
 devDependencies:
@@ -1874,8 +1874,8 @@ packages:
     resolution: {integrity: sha512-ZJcXPPcqkj7HFDYqbsCuOIAgIZ/sd2b+OnBxNGyxAcUDUJfIpxp4t23CwxO2E7LZpqUrIliA4TnjxTXG8mLoqw==}
     dev: false
 
-  /fastify/4.2.1:
-    resolution: {integrity: sha512-eyAWHN9+8IPTnhvGz+leseASGV/JZ75Y+jXXV7tid4awUjCMInY1gazZXuTD95xUW+Ve5vfgLjQ2i1i0/XJjdw==}
+  /fastify/4.3.0:
+    resolution: {integrity: sha512-9q5Ron8jWmX6ElFkgZH4zmIIXdnkGIu16JozWG2ohcs7th5rAo1ymNi+rn6xCmbWc6jl9lf+9OxVe93LOg6/2w==}
     dependencies:
       '@fastify/ajv-compiler': 3.1.2
       '@fastify/error': 3.0.0
