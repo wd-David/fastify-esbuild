@@ -20,7 +20,7 @@ specifiers:
   fastify-plugin: 4.0.0
   husky: 8.0.1
   inquirer: ^8.0.0
-  json-schema-to-ts: 2.5.4
+  json-schema-to-ts: 2.5.5
   lint-staged: 13.0.3
   pino: 8.3.1
   pino-pretty: 8.1.0
@@ -53,7 +53,7 @@ devDependencies:
   eslint-plugin-prettier: 4.2.1_g4fztgbwjyq2fvmcscny2sj6fy
   husky: 8.0.1
   inquirer: 8.2.4
-  json-schema-to-ts: 2.5.4
+  json-schema-to-ts: 2.5.5
   lint-staged: 13.0.3
   pino: 8.3.1
   pino-pretty: 8.1.0
@@ -2477,8 +2477,8 @@ packages:
       - supports-color
     dev: false
 
-  /json-schema-to-ts/2.5.4:
-    resolution: {integrity: sha512-wlaYrGg+aYq0aEjSDY3cAFNzJVD2GvdrVIlvMdrbOLwkaMarXBiX+k0qm5Myb2aI3xjvdqsZoGs63JPS/M8+dg==}
+  /json-schema-to-ts/2.5.5:
+    resolution: {integrity: sha512-GFD5t0fUnX/B0gE9xbHjxv2BwFXRJND2+OKoLoMElJ3XRJ7dOBlLT7KXpg96aETeZ0RJbAZOfqHALBf5k4aIIA==}
     dependencies:
       '@types/json-schema': 7.0.11
       ts-algebra: 1.1.1
