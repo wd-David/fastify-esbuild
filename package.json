@@ -31,7 +31,7 @@
     "inquirer": "^8.0.0",
     "json-schema-to-ts": "2.5.4",
     "lint-staged": "13.0.3",
-    "pino": "8.3.0",
+    "pino": "8.3.1",
     "pino-pretty": "8.1.0",
     "prettier": "2.7.1",
     "standard-version": "9.5.0",
