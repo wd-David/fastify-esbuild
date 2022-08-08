@@ -22,7 +22,7 @@
     "@typescript-eslint/eslint-plugin": "5.31.0",
     "@typescript-eslint/parser": "5.31.0",
     "commitizen": "4.2.5",
-    "esbuild": "0.14.51",
+    "esbuild": "0.14.53",
     "esbuild-plugin-pino": "1.2.1",
     "eslint": "8.20.0",
     "eslint-config-prettier": "8.5.0",
