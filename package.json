@@ -19,10 +19,10 @@
     "@commitlint/config-conventional": "17.0.3",
     "@commitlint/cz-commitlint": "17.0.3",
     "@types/node": "18.0.6",
-    "@typescript-eslint/eslint-plugin": "5.33.1",
-    "@typescript-eslint/parser": "5.33.1",
+    "@typescript-eslint/eslint-plugin": "5.34.0",
+    "@typescript-eslint/parser": "5.34.0",
     "commitizen": "4.2.5",
-    "esbuild": "0.15.3",
+    "esbuild": "0.15.5",
     "esbuild-plugin-pino": "1.2.2",
     "eslint": "8.22.0",
     "eslint-config-prettier": "8.5.0",
@@ -31,11 +31,11 @@
     "inquirer": "^8.0.0",
     "json-schema-to-ts": "2.5.5",
     "lint-staged": "13.0.3",
-    "pino": "8.4.1",
+    "pino": "8.4.2",
     "pino-pretty": "8.1.0",
     "prettier": "2.7.1",
     "standard-version": "9.5.0",
-    "thread-stream": "2.0.1",
+    "thread-stream": "2.1.0",
     "tiny-glob": "^0.2.9",
     "tsx": "^3.8.0",
     "typescript": "4.7.4"
@@ -44,7 +44,7 @@
     "@fastify/autoload": "5.2.0",
     "@fastify/sensible": "5.1.0",
     "@fastify/swagger": "7.4.1",
-    "fastify": "4.4.0",
+    "fastify": "4.5.2",
     "fastify-plugin": "4.2.0"
   }
 }
