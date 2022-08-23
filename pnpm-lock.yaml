@@ -23,7 +23,7 @@ specifiers:
   json-schema-to-ts: 2.5.5
   lint-staged: 13.0.3
   pino: 8.4.2
-  pino-pretty: 8.1.0
+  pino-pretty: 9.0.1
   prettier: 2.7.1
   standard-version: 9.5.0
   thread-stream: 2.1.0
@@ -56,7 +56,7 @@ devDependencies:
   json-schema-to-ts: 2.5.5
   lint-staged: 13.0.3
   pino: 8.4.2
-  pino-pretty: 8.1.0
+  pino-pretty: 9.0.1
   prettier: 2.7.1
   standard-version: 9.5.0
   thread-stream: 2.1.0
@@ -2442,7 +2442,7 @@ packages:
       source-map: 0.6.1
       wordwrap: 1.0.0
     optionalDependencies:
-      uglify-js: 3.16.2
+      uglify-js: 3.17.0
     dev: true
 
   /hard-rejection/2.1.0:
@@ -3094,10 +3094,6 @@ packages:
     resolution: {integrity: sha512-z+cPxW0QGUp0mcqcsgQyLVRDoXFQbXOwBaqyF7VIgI4TWNQsDHrBpUQslRmIfAoYWdYzs6UlKJtB2XJpTaNSpQ==}
     dev: true
 
-  /on-exit-leak-free/1.0.0:
-    resolution: {integrity: sha512-Ve8ubhrXRdnuCJ5bQSQpP3uaV43K1PMcOfSRC1pqHgRZommXCgsXwh08jVC5NpjwScE23BPDwDvVg4cov3mwjw==}
-    dev: true
-
   /on-exit-leak-free/2.1.0:
     resolution: {integrity: sha512-VuCaZZAjReZ3vUwgOB8LxAosIurDiAW0s13rI1YwmaP++jvcxP77AWoQvenZebpCA2m8WC1/EosPYPMjnRAp/w==}
 
@@ -3322,8 +3318,8 @@ packages:
       readable-stream: 4.1.0
       split2: 4.1.0
 
-  /pino-pretty/8.1.0:
-    resolution: {integrity: sha512-oKfI8qKXR2a3haHs/X8iB6QSnWLqoOGAjwxIAXem4+XOGIGNw7IKpozId1uE7j89Rj46HIfWnGbAgmQmr8+yRw==}
+  /pino-pretty/9.0.1:
+    resolution: {integrity: sha512-5gFIIeDu1niFlL0pBACerwDR8Ts+i4gO0W9S0jRoHVvaQluvGOW4cUaDmC+/dSTCoG4VqfOQhP0dwuDLd0qJ6A==}
     hasBin: true
     dependencies:
       colorette: 2.0.19
@@ -3333,12 +3329,12 @@ packages:
       help-me: 4.0.1
       joycon: 3.1.1
       minimist: 1.2.6
-      on-exit-leak-free: 1.0.0
+      on-exit-leak-free: 2.1.0
       pino-abstract-transport: 1.0.0
       pump: 3.0.0
       readable-stream: 4.1.0
-      secure-json-parse: 2.4.0
-      sonic-boom: 3.0.0
+      secure-json-parse: 2.5.0
+      sonic-boom: 3.2.0
       strip-json-comments: 3.1.1
     dev: true
 
@@ -3623,6 +3619,11 @@ packages:
 
   /secure-json-parse/2.4.0:
     resolution: {integrity: sha512-Q5Z/97nbON5t/L/sH6mY2EacfjVGwrCcSi5D3btRO2GZ8pf1K1UN7Z9H5J57hjVU2Qzxr1xO+FmBhOvEkzCMmg==}
+    dev: false
+
+  /secure-json-parse/2.5.0:
+    resolution: {integrity: sha512-ZQruFgZnIWH+WyO9t5rWt4ZEGqCKPwhiw+YbzTwpmT9elgLrLcfuyUiSnwwjUiVy9r4VM3urtbNF1xmEh9IL2w==}
+    dev: true
 
   /semver/5.7.1:
     resolution: {integrity: sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==}
@@ -3717,16 +3718,16 @@ packages:
       is-fullwidth-code-point: 4.0.0
     dev: true
 
-  /sonic-boom/3.0.0:
-    resolution: {integrity: sha512-p5DiZOZHbJ2ZO5MADczp5qrfOd3W5Vr2vHxfCpe7G4AzPwVOweIjbfgku8wSQUuk+Y5Yuo8W7JqRe6XKmKistg==}
-    dependencies:
-      atomic-sleep: 1.0.0
-    dev: true
-
   /sonic-boom/3.1.0:
     resolution: {integrity: sha512-qVr246G5307nz5JmhtsvHudxNMrRTWTCmTg+tA4gHQJnVyx/SsyQnky/5peC23B8etvlKli9P6sNXWQGDxoskQ==}
     dependencies:
       atomic-sleep: 1.0.0
+
+  /sonic-boom/3.2.0:
+    resolution: {integrity: sha512-SbbZ+Kqj/XIunvIAgUZRlqd6CGQYq71tRRbXR92Za8J/R3Yh4Av+TWENiSiEgnlwckYLyP0YZQWVfyNC0dzLaA==}
+    dependencies:
+      atomic-sleep: 1.0.0
+    dev: true
 
   /source-map-support/0.5.21:
     resolution: {integrity: sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==}
@@ -4094,8 +4095,8 @@ packages:
     hasBin: true
     dev: true
 
-  /uglify-js/3.16.2:
-    resolution: {integrity: sha512-AaQNokTNgExWrkEYA24BTNMSjyqEXPSfhqoS0AxmHkCJ4U+Dyy5AvbGV/sqxuxficEfGGoX3zWw9R7QpLFfEsg==}
+  /uglify-js/3.17.0:
+    resolution: {integrity: sha512-aTeNPVmgIMPpm1cxXr2Q/nEbvkmV8yq66F3om7X3P/cvOXQ0TMQ64Wk63iyT1gPlmdmGzjGpyLh1f3y8MZWXGg==}
     engines: {node: '>=0.8.0'}
     hasBin: true
     requiresBuild: true
