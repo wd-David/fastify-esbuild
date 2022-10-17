@@ -28,7 +28,7 @@
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.2.1",
     "husky": "8.0.1",
-    "inquirer": "8.2.4",
+    "inquirer": "9.1.4",
     "json-schema-to-ts": "2.5.5",
     "lint-staged": "13.0.3",
     "pino": "8.6.1",
@@ -43,7 +43,7 @@
   "dependencies": {
     "@fastify/autoload": "5.4.1",
     "@fastify/sensible": "5.1.1",
-    "@fastify/swagger": "7.6.1",
+    "@fastify/swagger": "8.0.0",
     "fastify": "4.8.1",
     "fastify-plugin": "4.3.0"
   }
