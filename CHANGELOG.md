@@ -2,6 +2,54 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/davipon/fastify-esbuild/compare/v0.1.2...v0.2.0) (2022-12-21)
+
+
+### 🔨 Build System
+
+* **dep:** bumped pino-pretty from 8.1.0 to 9.0.1 ([b48576e](https://github.com/davipon/fastify-esbuild/commit/b48576eb3ca80a8cb9ccdf3dbb510fe19dabd8c4))
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update all major dependencies ([0b71569](https://github.com/davipon/fastify-esbuild/commit/0b71569d452b9d825dbd59e3ff387ecee98f489c))
+* **deps:** update all non-major dependencies ([5557020](https://github.com/davipon/fastify-esbuild/commit/555702097d16f69bd5aa0aac1d03ccfb753cd78f))
+* **deps:** update all non-major dependencies ([3274a79](https://github.com/davipon/fastify-esbuild/commit/3274a79ab5516e2847dc2d629508e84516208fc2))
+* **deps:** update all non-major dependencies ([3a40169](https://github.com/davipon/fastify-esbuild/commit/3a40169023973f9756e81edb9ee80d9b76c698b7))
+* **deps:** update all non-major dependencies ([ef77448](https://github.com/davipon/fastify-esbuild/commit/ef7744803f8213de77e876b9214d2de409486d62))
+* **deps:** update all non-major dependencies ([1ae7a3a](https://github.com/davipon/fastify-esbuild/commit/1ae7a3a16fbfe8f812b198b8fca4eef67ba19e67))
+* **deps:** update all non-major dependencies ([3d7165d](https://github.com/davipon/fastify-esbuild/commit/3d7165dc8146b88e1a7aea767830cd223d147249))
+* **deps:** update all non-major dependencies ([#30](https://github.com/davipon/fastify-esbuild/issues/30)) ([8558ef1](https://github.com/davipon/fastify-esbuild/commit/8558ef18316c88fe0afeb0e27d7be86417434691))
+* **deps:** update all non-major dependencies ([#47](https://github.com/davipon/fastify-esbuild/issues/47)) ([d16e78e](https://github.com/davipon/fastify-esbuild/commit/d16e78e83bf62cdb4b27257423201e37eb85b144))
+* **deps:** update dependency fastify to v4.3.0 ([f64140a](https://github.com/davipon/fastify-esbuild/commit/f64140ac20b165e34a46d44032dc195a302da3ba))
+
+
+### 🚚 Chores
+
+* **deps:** pin dependencies ([#32](https://github.com/davipon/fastify-esbuild/issues/32)) ([0e4f4e8](https://github.com/davipon/fastify-esbuild/commit/0e4f4e85ff1b5f11ace98c5859b5e296961fbbb5))
+* **deps:** update all non-major dependencies ([a24c3c9](https://github.com/davipon/fastify-esbuild/commit/a24c3c996157952adc3e773bcfa1e95a99e9d767))
+* **deps:** update all non-major dependencies ([f1411bf](https://github.com/davipon/fastify-esbuild/commit/f1411bf26c55d4b73db9f1b4a15b4ca461cb2cee))
+* **deps:** update all non-major dependencies ([491faf7](https://github.com/davipon/fastify-esbuild/commit/491faf7949532c790e23739a776f6bf3f7fcc079))
+* **deps:** update all non-major dependencies ([6c97aa0](https://github.com/davipon/fastify-esbuild/commit/6c97aa0f1fdfa837931d379489151b05b1de1402))
+* **deps:** update all non-major dependencies ([f4b4d9d](https://github.com/davipon/fastify-esbuild/commit/f4b4d9d89ffc0502e94560ce3978e09c923b2acb))
+* **deps:** update all non-major dependencies ([98ac328](https://github.com/davipon/fastify-esbuild/commit/98ac32840b336f4b3f3d4ef2c9135688069949f2))
+* **deps:** update all non-major dependencies ([b0ef0a2](https://github.com/davipon/fastify-esbuild/commit/b0ef0a2afadf9dd332f691f3bab0a6754bd347a3))
+* **deps:** update all non-major dependencies ([96f41cd](https://github.com/davipon/fastify-esbuild/commit/96f41cd3a408370317e8f5a838afcd53ca8340c0))
+* **deps:** update all non-major dependencies ([#33](https://github.com/davipon/fastify-esbuild/issues/33)) ([9cc061c](https://github.com/davipon/fastify-esbuild/commit/9cc061c35932c13e114ea3a09dbd7ba2a68a7ae0))
+* **deps:** update dependency esbuild to v0.14.51 ([b8e533c](https://github.com/davipon/fastify-esbuild/commit/b8e533c38b4ed711f6493650efc5dd2bc7f61b33))
+* **deps:** update dependency esbuild to v0.14.53 ([a414aab](https://github.com/davipon/fastify-esbuild/commit/a414aaba7c64c62a4d7cb6a856c138e411ab4d32))
+* **deps:** update dependency json-schema-to-ts to v2.5.5 ([#25](https://github.com/davipon/fastify-esbuild/issues/25)) ([6367299](https://github.com/davipon/fastify-esbuild/commit/636729941a8f223a3c7a5ea19a33538dd53bde47))
+* **deps:** update dependency pino to v8.3.0 ([#23](https://github.com/davipon/fastify-esbuild/issues/23)) ([a1dffe5](https://github.com/davipon/fastify-esbuild/commit/a1dffe553f33fcdd8017aa5ff5e98acb151da3bb))
+* **deps:** update dependency pino to v8.3.1 ([e6ea3d4](https://github.com/davipon/fastify-esbuild/commit/e6ea3d418398c4e41a0e38bd31629253a76ed827))
+* **deps:** update dependency thread-stream to v2.0.1 ([541771b](https://github.com/davipon/fastify-esbuild/commit/541771b998666af130c60daa03852bcd066a7284))
+* **deps:** update typescript-eslint monorepo to v5.30.7 ([5659e83](https://github.com/davipon/fastify-esbuild/commit/5659e83b28cfe56e30877d7140b4efd8e1ca2aa5))
+* **deps:** update typescript-eslint monorepo to v5.31.0 ([01d9229](https://github.com/davipon/fastify-esbuild/commit/01d922989d79e364aa344c9b1cab298c96ce05d8))
+
+
+### ✨ Features
+
+* add @fastify/swagger-ui and build for prod ([#50](https://github.com/davipon/fastify-esbuild/issues/50)) ([10ea46d](https://github.com/davipon/fastify-esbuild/commit/10ea46df50ef2f471696e1d738a9e1cc4e32c537))
+
 ### [0.1.2](https://github.com/davipon/fastify-esbuild/compare/v0.1.1...v0.1.2) (2022-07-18)
 
 
