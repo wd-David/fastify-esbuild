@@ -7,6 +7,7 @@
     "start": "npm run build && node build",
     "format": "prettier --write src",
     "lint": "prettier --check src && eslint --ignore-path .gitignore .",
+    "ci": "pnpm format && pnpm lint",
     "release:major": "standard-version --no-verify --release-as major",
     "release:minor": "standard-version --no-verify --release-as minor",
     "release:patch": "standard-version --no-verify --release-as patch"
