@@ -1,7 +1,5 @@
 # fastify-esbuild
 
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-
 Opinionated boilerplate to build a Fastify app with better DX.
 
 ---
@@ -15,9 +13,6 @@ Opinionated boilerplate to build a Fastify app with better DX.
 - Use `@fastify/autoload` for filesystem-based routes & plugins.
 - Use [`esbuild-kit/tsx`](https://github.com/esbuild-kit/tsx) to reduce feedback loop during devlopment.
 - Use `esbuild` to bundle production code.
-- Use Conventional Commits & SemVer standards, e.g. `commitlint`, `commitizen`, `standard-version`.
-- Use `eslint`, `prettier`, `lint-staged`.
-- Use `husky` git hooks helper to run formatter & linter.
 
 ---
 
@@ -27,9 +22,6 @@ Opinionated boilerplate to build a Fastify app with better DX.
 # Install dependencies
 pnpm i
 
-# Activate git hooks
-pnpm prepare
-
 # Start development
 pnpm dev
 
@@ -38,12 +30,6 @@ pnpm build
 
 # Run production code
 pnpm start
-
-# New commit with interactive CLI
-pnpm cz
-
-# Auto generate changelogs and versioning
-pnpm release
 ```
 
 ## TODO
