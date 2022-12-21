@@ -1,7 +1,8 @@
 import fp from 'fastify-plugin'
-import swagger, { FastifyDynamicSwaggerOptions } from '@fastify/swagger'
+import swagger from '@fastify/swagger'
+import swaggerUi from '@fastify/swagger-ui'
 
-export default fp<FastifyDynamicSwaggerOptions>(async (fastify) => {
+export default fp(async (fastify) => {
   fastify.register(swagger, {
     openapi: {
       info: {
@@ -15,7 +16,7 @@ export default fp<FastifyDynamicSwaggerOptions>(async (fastify) => {
         }
       ]
     },
-    hideUntagged: true,
-    exposeRoute: true
+    hideUntagged: true
   })
+  fastify.register(swaggerUi)
 })
