@@ -6,9 +6,9 @@ Opinionated boilerplate to build a Fastify app with better DX.
 
 ## Articles
 
-[Better Backend DX: Fastify + ESBuild = ⚡️](https://davipon.hashnode.dev/better-backend-dx-fastify-esbuild)
-[Better Backend DX: JSON Schema + TypeScript + Swagger = ✨ Vol. 1](https://davipon.hashnode.dev/better-backend-dx-json-schema-typescript-swagger-vol-1)
-[Better Backend DX: JSON Schema + TypeScript + Swagger = ✨ Vol. 2](https://davipon.hashnode.dev/better-backend-dx-json-schema-typescript-swagger-vol-2)
+- [Better Backend DX: Fastify + ESBuild = ⚡️](https://davipon.hashnode.dev/better-backend-dx-fastify-esbuild)
+- [Better Backend DX: JSON Schema + TypeScript + Swagger = ✨ Vol. 1](https://davipon.hashnode.dev/better-backend-dx-json-schema-typescript-swagger-vol-1)
+- [Better Backend DX: JSON Schema + TypeScript + Swagger = ✨ Vol. 2](https://davipon.hashnode.dev/better-backend-dx-json-schema-typescript-swagger-vol-2)
 
 ## Features
 
