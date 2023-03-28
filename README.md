@@ -35,11 +35,3 @@ pnpm build
 # Run production code
 pnpm start
 ```
-
-## TODO
-
-- [ ] Add `docker` or `docker-compose` for deployment
-- [ ] Add `vitest` & `msw`
-- [ ] Add `dotnev` for different stages
-- [ ] Add `mongodb` examples
-- [ ] Add `envoy` as a sidecar proxy
